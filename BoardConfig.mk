@@ -51,7 +51,7 @@ TARGET_USES_QCOM_BSP := true
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE -DQCOM_BSP -DNO_SECURE_DISCARD
 
 # CM Hardware
-#BOARD_HARDWARE_CLASS += device/oppo/find7a/cmhw
+BOARD_HARDWARE_CLASS += device/oppo/find7a/cmhw
 
 # Display
 TARGET_QCOM_DISPLAY_VARIANT := caf-new
