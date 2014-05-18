@@ -89,6 +89,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.gapless.enabled=false \
     qcom.hw.aac.encoder=true \
     tunnel.audio.encode=true \
+    media.aac_51_output_enabled=true \
     qemu.hw.mainkeys=1\
     view.scroll_friction=1\
     ro.min_pointer_dur=8\
