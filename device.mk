@@ -45,9 +45,7 @@ PRODUCT_COPY_FILES += \
 # Config files for touch and input
 PRODUCT_COPY_FILES += \
     device/oppo/find7a/configs/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    device/oppo/find7a/configs/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
-    device/oppo/find7a/configs/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl \
-    device/oppo/find7a/configs/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl
+    device/oppo/find7a/configs/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl
 
 # Media config files
 PRODUCT_COPY_FILES += \
