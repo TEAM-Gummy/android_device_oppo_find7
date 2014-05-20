@@ -37,6 +37,10 @@ $(call inherit-product, vendor/Gummy/config/nfc_enhanced.mk)
 # Inherit some common Gummy stuff.
 $(call inherit-product, vendor/Gummy/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1920
+
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := tg_find7a
 PRODUCT_DEVICE := find7a
