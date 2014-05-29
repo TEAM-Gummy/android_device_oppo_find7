@@ -572,7 +572,7 @@
     <path name="ear">
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
-        <ctl name="RX1 Digital Volume" value="90" />
+        <ctl name="RX1 Digital Volume" value="84" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="DAC1 Switch" value="1" />
     </path>
@@ -585,7 +585,6 @@
         <ctl name="COMP2 Switch" value="1" />
         <ctl name="LINEOUT1 Volume" value="13" />
         <ctl name="LINEOUT3 Volume" value="13" />
-        <ctl name="SPKR Enable" value="1" />
     </path>
 
     <path name="hph">
@@ -624,8 +623,8 @@
 
     <path name="speaker">
         <path name="spk" />
-        <ctl name="RX3 Digital Volume" value="82" />
-        <ctl name="RX4 Digital Volume" value="82" />
+        <ctl name="RX3 Digital Volume" value="80" />
+        <ctl name="RX4 Digital Volume" value="80" />
         <ctl name="SLIM_0_RX Format" value="S24_LE" />
         <ctl name="SLIM_0_RX SampleRate" value="KHZ_192" />
     </path>
@@ -654,8 +653,8 @@
         <path name="spk-hph" />
         <ctl name="RX1 Digital Volume" value="84" />
         <ctl name="RX2 Digital Volume" value="84" />
-        <ctl name="RX3 Digital Volume" value="82" />
-        <ctl name="RX4 Digital Volume" value="82" />
+        <ctl name="RX3 Digital Volume" value="80" />
+        <ctl name="RX4 Digital Volume" value="80" />
         <ctl name="SLIM_0_RX Format" value="S24_LE" />
         <ctl name="SLIM_0_RX SampleRate" value="KHZ_192" />
     </path>
